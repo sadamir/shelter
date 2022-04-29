@@ -71,6 +71,9 @@ body{
   font-weight: normal;
   color: #545454;
   width: 100vw;
+  background: url(../../assets/images/background-img.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
 }
 
 .wrapper {
@@ -93,13 +96,12 @@ h1{
 }
 
 .header {
-  position: fixed;
   width: 100%;
   top: 0;
   left:0;
 }
 
-.header_wrapper {
+.header-wrapper {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
@@ -107,12 +109,12 @@ h1{
   padding-top: 60px;
 }
 
-.header_list{
+.header-list{
   display: flex;
   flex-wrap: wrap;
 }
 
-.header_logo_description{
+.header-logo-description{
 
   margin-left: 3px;
   left: 4px;
@@ -126,19 +128,19 @@ h1{
   color: #FFFFFF;
 }
 
-.header_logo_link{
+.header-logo-link{
   text-decoration: none;
 }
 
-.header_item{
+.header-item{
   margin-right: 35px;
 }
 
-.header_item:last-child{
+.header-item:last-child{
   margin-right: 0;
 }
 
-.header_link_active{
+.header-link-active{
   width: 114px;
   height: 27px;
   color: white;
@@ -148,9 +150,10 @@ h1{
   border-bottom: 3px;
   border-color: #F1CDB3;
   border-style: solid;
+  padding-bottom: 4px;
 }
 
-.header_link{
+.header-link{
   width: 114px;
   height: 27px;
   color: #CDCDCD;
@@ -160,7 +163,7 @@ h1{
   transition-duration: 0.5s;
 }
 
-.header_link:hover, .header_link:active, .header_link:focus{
+.header-link:hover, .header-link:active, .header-link:focus{
   color: white;
   transition-duration: 0.5s;
 }
@@ -168,13 +171,67 @@ h1{
 /* HEADER END*/
 
 /* MAIN START*/
-.not-only{
-  height: 100vh;
-  background: url(../../assets/images/background-img.jpg) no-repeat center;
-  background-size: cover;
+h2 {
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 44px;
+	line-height: 130%;
+	color: #FFFFFF;
+  padding-top: 343px;
+  max-width: 310px;
+  margin-bottom: 42px;
 }
 
+.not-only{
+  height: 100vh;
 
+}
+
+.not-only-text{
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  color: #CDCDCD;
+  max-width: 460px;
+  margin-bottom: 42px;
+}
+
+.not-only-button{
+  flex-direction: column;
+  width: 207px;
+  height: 52px;
+  background: #F1CDB3;
+  border-radius: 25px;
+  border: none;
+  align-items: center;
+  cursor: pointer;
+  padding: 14px 20px;
+
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+  transition-duration: 0.5s;
+}
+
+.not-only-button:hover, .not-only-button:active, .not-only-button:focus{
+  background-color: #FDDCC4;
+  transition-duration: 0.5s;
+}
+
+.not-only-img{
+  position: absolute;
+  bottom: 0px;
+  left: 620px;
+}
 
 
 
