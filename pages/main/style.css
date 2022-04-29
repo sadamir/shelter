@@ -74,7 +74,7 @@ body{
 }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -237,7 +237,7 @@ h2 {
 }
 
 .not-only-button:hover, .not-only-button:active, .not-only-button:focus{
-  background-color: #FDDCC4;
+  background-color: #F8C184;
   transition-duration: 0.5s;
 }
 
@@ -267,7 +267,7 @@ h2 {
   text-align: left;
   width: 30%;
   margin-right: 50px;
-  margin-left: -50px;
+  margin-left: -100px;
 }
 
 .about-img{
@@ -295,10 +295,211 @@ font-weight: 400;
 font-size: 15px;
 line-height: 160%;
 color: #4C4C4C;
+width: 430px;
+}
+/*ABOUT BLOCK*/
+
+/*OUR FRIENDS*/
+h3{
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  /* color-dark-l */
+
+  color: #545454;
+}
+
+
+.our-friends-wrapper{
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.our-friends-block{
+  display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+  background:  #F6F6F6;
+  padding-bottom: 100px;
+}
+
+.our-friends-title{
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  display: flex;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+  padding-top: 80px;
+  margin-bottom: 58px;
+}
+
+.our-friends-arrow-left{
+  width: 58px;
+	height: 52px;
+  border: 2px solid #F1CDB3;
+  box-sizing: border-box;
+  border-radius: 100px;
+  background: url(../../assets/icons/left.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.our-friends-arrow-right{
+  width: 58px;
+	height: 52px;
+  border: 2px solid #F1CDB3;
+  box-sizing: border-box;
+  border-radius: 100px;
+  background: url(../../assets/icons/right.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0px;
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+
+.our-friends-slider {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 59px;
+	align-items:center;
+	justify-content: center;
+	width: 100%;
+
+}
+
+.our-friends-button{
+
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+  flex: none;
+  order: 0;
+  align-self: center;
+  flex-grow: 0;
+  margin: 10px 0px;
+  width: 261px;
+  height: 52px;
+  left: 470px;
+  top: 645px;
+  background: #F1CDB3;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.our-friends-learn-button{
+
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+  flex: none;
+  order: 0;
+  align-self: center;
+  flex-grow: 0;
+  margin: 10px 0px;
+  width: 187px;
+  height: 52px;
+  left: 470px;
+  top: 645px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  border: 2px solid #F1CDB3;
+  box-sizing: border-box;
+  background: white;
+}
+
+.our-friends-three{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.our-friends-button:hover, .our-friends-button:active, .our-friends-button:focus{
+  background-color: #FDDCC4;
+  transition-duration: 0.5s;
+}
+
+.our-friends-arrow-right:hover, .our-friends-arrow-right:active, .our-friends-arrow-right:focus{
+	background-color: #FDDCC4;
+	border: 2px solid transparent;
+	transition-duration: 0.5s;
+}
+
+.our-friends-arrow-left:hover, .our-friends-arrow-left:active, .our-friends-arrow-left:focus{
+	background-color: #FDDCC4;
+	border: 2px solid transparent;
+	transition-duration: 0.5s;
+}
+
+.our-friends-card:hover, .our-friends-card:active, .our-friends-card:focus {
+  background-color: #EAEAEA;
+  transition-duration: 0.5s;
+}
+
+.our-friends-learn-button:hover, .our-friends-learn-button:active, .our-friends-learn-button:focus{
+  background-color: #FDDCC4;
+  border: 2px solid transparent;
+  transition-duration: 0.5s;
+}
+
+.our-friends-card:hover .our-friends-learn-button{
+  background-color: #FDDCC4;
+  border: 2px solid transparent;
+  transition-duration: 0.5s;
+}
+
+.our-friends-card{
+  text-align: center;
+  background: #F9F9F9;
+  transition: 0.3s;
+  cursor: pointer;
+  justify-content: space-evenly;
+  margin: 0 45px;
 }
 
 
 
-/*ABOUT BLOCK*/
+.our-friends-name{
+  margin-bottom: 18px;
+}
+
+.our-friends-img{
+  margin-bottom: 40px;
+}
+
+/*OUR FRIENDS*/
+
+
 
 /* MAIN END*/
