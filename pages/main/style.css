@@ -1,0 +1,183 @@
+/* Reset CSS*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+/*End of Reset CSS*/
+
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+/* Georgia fonts */
+
+@font-face {
+  font-family: 'Georgia';
+  src: url('../../assets/fonts/Georgia.ttf');
+
+}
+
+body{
+  font-family: 'Arial';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #545454;
+  width: 100vw;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/** HEADER START**/
+
+h1{
+  margin-bottom: 10px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 110%;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #F1CDB3;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left:0;
+}
+
+.header_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.header_list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header_logo_description{
+
+  margin-left: 3px;
+  left: 4px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+
+.header_logo_link{
+  text-decoration: none;
+}
+
+.header_item{
+  margin-right: 35px;
+}
+
+.header_item:last-child{
+  margin-right: 0;
+}
+
+.header_link_active{
+  width: 114px;
+  height: 27px;
+  color: white;
+  text-decoration: none;
+  line-height: 400%;
+  font-size: 15px;
+  border-bottom: 3px;
+  border-color: #F1CDB3;
+  border-style: solid;
+}
+
+.header_link{
+  width: 114px;
+  height: 27px;
+  color: #CDCDCD;
+  text-decoration: none;
+  line-height: 400%;
+  font-size: 15px;
+  transition-duration: 0.5s;
+}
+
+.header_link:hover, .header_link:active, .header_link:focus{
+  color: white;
+  transition-duration: 0.5s;
+}
+
+/* HEADER END*/
+
+/* MAIN START*/
+.not-only{
+  height: 100vh;
+  background: url(../../assets/images/background-img.jpg) no-repeat center;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+/* MAIN END*/
