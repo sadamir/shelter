@@ -70,10 +70,7 @@ body{
   line-height: 1.2;
   font-weight: normal;
   color: #545454;
-  width: 100vw;
-  background: url(../../assets/images/background-img.jpg) no-repeat center;
-  background-size: cover;
-  position: relative;
+
 }
 
 .wrapper {
@@ -81,6 +78,13 @@ body{
   margin: 0 auto;
 }
 
+.bcg-container{
+  background: url(../../assets/images/background-img.jpg) no-repeat center;
+  width: 100vw;
+  background-size: cover;
+  background-position: 0 0;
+  position: relative;
+}
 /** HEADER START**/
 
 h1{
@@ -98,7 +102,7 @@ h1{
 .header {
   width: 100%;
   top: 0;
-  left:0;
+  left: 0;
 }
 
 .header-wrapper {
@@ -171,6 +175,9 @@ h1{
 /* HEADER END*/
 
 /* MAIN START*/
+
+/*NOT ONLY BLOCK*/
+
 h2 {
 	font-family: 'Georgia';
 	font-style: normal;
@@ -178,14 +185,21 @@ h2 {
 	font-size: 44px;
 	line-height: 130%;
 	color: #FFFFFF;
-  padding-top: 343px;
+  /*padding-top: 343px;*/
   max-width: 310px;
   margin-bottom: 42px;
 }
 
-.not-only{
-  height: 100vh;
+.not-only-block{
+  min-height: 111vh;
 
+}
+
+.not-only-card{
+  display: flex;
+  flex-direction: column;
+	justify-content:flex-start;
+  padding-top: 220px;
 }
 
 .not-only-text{
@@ -229,12 +243,62 @@ h2 {
 
 .not-only-img{
   position: absolute;
-  bottom: 0px;
   left: 620px;
+  top: 191.5px;
+}
+
+/*NOT ONLY BLOCK*/
+
+/*ABOUT BLOCK*/
+.about-wrapper{
+  display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+
+.about-block{
+  margin: 80px 40px 100px;
+
+}
+
+.about-card{
+  text-align: left;
+  width: 30%;
+  margin-right: 50px;
+  margin-left: -50px;
+}
+
+.about-img{
+  margin-left: 10px;
+  padding-left: 50px;
+}
+
+.about-title{
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+align-items: center;
+letter-spacing: 0.06em;
+color: #545454;
+width: 400px;
+margin-bottom: 25px;
+}
+
+.about-text{
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 160%;
+color: #4C4C4C;
 }
 
 
 
-
+/*ABOUT BLOCK*/
 
 /* MAIN END*/
