@@ -250,53 +250,53 @@ h2 {
 /*NOT ONLY BLOCK*/
 
 /*ABOUT BLOCK*/
-.about-wrapper{
-  display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	align-items: center;
-}
+  .about-wrapper{
+    display: flex;
+  	flex-direction: row;
+  	justify-content: space-evenly;
+  	align-items: center;
+  }
 
 
-.about-block{
-  margin: 80px 40px 100px;
+  .about-block{
+    margin: 80px 40px 100px;
 
-}
+  }
 
-.about-card{
-  text-align: left;
-  width: 30%;
-  margin-right: 50px;
-  margin-left: -100px;
-}
+  .about-card{
+    text-align: left;
+    width: 30%;
+    margin-right: 50px;
+    margin-left: -100px;
+  }
 
-.about-img{
-  margin-left: 10px;
-  padding-left: 50px;
-}
+  .about-img{
+    margin-left: 10px;
+    padding-left: 50px;
+  }
 
-.about-title{
-font-family: 'Georgia';
-font-style: normal;
-font-weight: 400;
-font-size: 35px;
-line-height: 130%;
-align-items: center;
-letter-spacing: 0.06em;
-color: #545454;
-width: 400px;
-margin-bottom: 25px;
-}
+  .title{
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+  width: 400px;
+  margin-bottom: 25px;
+  }
 
-.about-text{
-font-family: 'Arial';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 160%;
-color: #4C4C4C;
-width: 430px;
-}
+  .about-text{
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #4C4C4C;
+  width: 430px;
+  }
 /*ABOUT BLOCK*/
 
 /*OUR FRIENDS*/
@@ -306,15 +306,9 @@ h3{
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
-  /* identical to box height */
-
-
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
-  /* color-dark-l */
-
   color: #545454;
 }
 
@@ -331,7 +325,7 @@ h3{
 	justify-content: space-between;
 	align-items: center;
   background:  #F6F6F6;
-  padding-bottom: 100px;
+  padding-bottom: 90px;
 }
 
 .our-friends-title{
@@ -374,7 +368,6 @@ h3{
   padding: 0px;
   cursor: pointer;
   transition: 0.5s;
-
 }
 
 .our-friends-slider {
@@ -384,11 +377,9 @@ h3{
 	align-items:center;
 	justify-content: center;
 	width: 100%;
-
 }
 
 .our-friends-button{
-
   font-family: 'Georgia';
   font-style: normal;
   font-weight: 400;
@@ -413,7 +404,6 @@ h3{
 }
 
 .our-friends-learn-button{
-
   font-family: 'Georgia';
   font-style: normal;
   font-weight: 400;
@@ -488,8 +478,6 @@ h3{
   margin: 0 45px;
 }
 
-
-
 .our-friends-name{
   margin-bottom: 18px;
 }
@@ -500,6 +488,71 @@ h3{
 
 /*OUR FRIENDS*/
 
+/*ICONS*/
+.icons-block{
+  padding-bottom: 70px;
+}
 
+
+.icons_wrapper{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.icons-title{
+padding-top: 80px;
+margin-bottom: 20px;
+}
+
+.icons-images{
+  margin-bottom: 30px;
+}
+
+.icons-name{
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #545454;
+}
+
+.icons-and-text-card{
+  text-align: center;
+  justify-content: space-evenly;
+  margin: 0 20px;
+  margin-bottom: 50px;
+}
+
+.grid-col-span-2{
+  grid-column: span 2;
+  justify-items: center;
+}
+
+.icons-grid{
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-row-gap: 30px;
+width: 85%;
+}
+
+.icons-grid2{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-row-gap: 30px;
+width: 75%;
+}
+
+
+
+
+
+
+
+/*ICONS*/
 
 /* MAIN END*/
