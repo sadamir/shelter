@@ -3,6 +3,6 @@ function buttonOurFriends() {
 }
 
 function buttonOurFriendsPage() {
-    window.open('https://rolling-scopes-school.github.io/sadamir-JSFE2022Q1/shelter/pages/pets/index.html', '_blank');
+    window.open('https://sadamir.github.io/shelter/pages/pets/index.html', '_blank');
 
 }
