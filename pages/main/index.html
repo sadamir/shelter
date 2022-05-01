@@ -5,6 +5,7 @@
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <title>Cozy House</title>
     <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
   </head>
   <body>
     <div class="bcg-container">
@@ -13,7 +14,7 @@
             <div class="wrapper">
               <div class="header-wrapper">
                 <div class="header-logo">
-                  <a href="/" class="header-logo-link">   <!-- change the link -->
+                  <a href="https://rolling-scopes-school.github.io/sadamir-JSFE2022Q1/shelter/pages/pets/index.html" class="header-logo-link">   <!-- change the link -->
                     <h1>Cozy House</h1>
                   </a>
                   <p class="header-logo-description">Shelter for pets in Boston</p>
@@ -22,16 +23,16 @@
                 <nav class="header-nav">
                   <ul class="header-list">
                     <li class="header-item">
-                      <a href="#!" class="header-link-active">About the shelter</a>
+                      <a href="https://rolling-scopes-school.github.io/sadamir-JSFE2022Q1/shelter/pages/pets/index.html" class="header-link-active">About the shelter</a>
                     </li>
                     <li class="header-item">
-                      <a href="#!" class="header-link">Our pets</a>
+                      <a href="https://rolling-scopes-school.github.io/sadamir-JSFE2022Q1/shelter/pages/pets/index.html" class="header-link" target="_blank">Our pets</a>
                     </li>
                     <li class="header-item">
-                      <a href="#!" class="header-link">Help the shelter</a>
+                      <a href="#help" class="header-link">Help the shelter</a>
                     </li>
                     <li class="header-item">
-                      <a href="#!" class="header-link">Contacts</a>
+                      <a href="#contacts" class="header-link">Contacts</a>
                     </li>
                   </ul>
                 </nav>
@@ -45,15 +46,17 @@
 
     <section class="not-only-block">
       <div class="container">
-        <div class="wrapper not-only-card">
-          <h2 class="not-only-title">Not only people need a house</h2>
-          <p class="not-only-text">We offer to give a chance to a little and nice puppy
-          with an extremely wide and open heart. He or she will love you more than
-          anybody else in the world, you will see!</p>
-          <button type="button" name="button" class="not-only-button">Make a friend</button>
-        </div>
-        <div class="not-only-img">
-          <img src="../../assets/images/start-screen-puppy.png" alt="screen puppy" />
+        <div class="not-only-wrapper">
+          <div class="not-only-card">
+                <h2 class="not-only-title">Not only people need a house</h2>
+                <p class="not-only-text">We offer to give a chance to a little and nice puppy
+                with an extremely wide and open heart. He or she will love you more than
+                anybody else in the world, you will see!</p>
+                <button type="button" onclick="buttonOurFriends()" class="not-only-button">Make a friend</button>
+          </div>
+              <div class="not-only-img">
+                <img src="../../assets/images/start-screen-puppy.png" alt="screen puppy" />
+              </div>
         </div>
       </div>
     </section>
@@ -80,7 +83,7 @@
     </div>
     </section>
 
-    <section class="our-friends-block">
+    <section class="our-friends-block" id="our-friends">
       <div class="container">
           <div class="our-friends-wrapper">
             <div class="our-friends-title">
@@ -121,12 +124,12 @@
               <button type="button" class="our-friends-arrow-right"></button>
             </div>
 
-            <button type="button" onclick="buttonToOurFriendsPage()" class="our-friends-button">Get to know the rest</button>
+            <button type="button" onclick="buttonOurFriendsPage()" class="our-friends-button">Get to know the rest</button>
           </div>
       </div>
     </section>
 
-    <section class="icons-block">
+    <section class="icons-block" id="help">
       <div class="container">
 
       <div class="icons_wrapper">
@@ -204,10 +207,57 @@
       </div>
     </div>
     </section>
+    </main>
+
+    <footer>
+    <section class="footer-block" id="contacts">
+
+      <div class="wrapper-footer">
+
+
+      <div class="suggestions">
+        <h3 class="questions-suggestions">For questions <br>and suggestions</h3>
+
+          <div class="email">
+            <a href="mailto:email@shelter.com"><img src="../../assets/icons/mail.svg" alt="email"></a>
+            <a href="mailto:email@shelter.com" style="text-decoration:none !important; text-decoration:none;"><p class="footer-info">email@shelter.com</p></a>
+          </div>
+
+          <div class="mobile">
+            <a href="tel:+136745677554"><img src="../../assets/icons/phone.svg" alt="phone"></a>
+            <a href="tel:+136745677554" style="text-decoration:none !important; text-decoration:none;"><p class="footer-info">+13 674 567 75 54</p></a>
+          </div>
+
+      </div>
+
+
+      <div class="waiting-visit">
+        <h3 class="visit">We are waiting <br>for your visit</h3>
+        <a href="https://www.google.kz/maps/@44.8503812,65.5109136,11.94z?hl=ru" style="text-decoration:none !important; text-decoration:none;" target="_blank">
+          <div class="address1">
+            <img src="../../assets/icons/icon-marker.svg" alt="pointer">
+            <p class="footer-info">1 Central Street, Boston<br/>(entrance from the store)</p>
+          </div>
+        </a>
+
+        <a href="https://www.google.kz/maps/@44.8503812,65.5109136,11.94z?hl=ru" style="text-decoration:none !important; text-decoration:none;" target="_blank">
+          <div class="address2">
+            <img src="../../assets/icons/icon-marker.svg" alt="pointer">
+            <p class="footer-info">18 South Park, London</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="footer-img">
+        <img src="../../assets/images/footer-puppy.png" alt="puppy footer">
+      </div>
+
+      </div>
+    </section>
+    </footer>
 
 
 
-  </main>
 
   </body>
 </html>
