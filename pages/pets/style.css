@@ -215,17 +215,10 @@ h1{
   flex-wrap: wrap;
   flex-direction: row;
   gap: 0.81rem;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-.our-friends-wrapper-flex2 {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  gap: 0.81rem;
-  justify-content: space-between;
-  margin-bottom: 16px;
-}
+
 
 .our-friends-block{
   /*display: flex;
@@ -835,7 +828,7 @@ button[disabled]{
     	width: 100%;
     }
 
-    .our-friends-arrow-left{
+    /* .our-friends-arrow-left{
       width: 58px;
       height: 52px;
       border: 2px solid #F1CDB3;
@@ -865,7 +858,7 @@ button[disabled]{
       transition: 0.5s;
       margin-top: 13px;
       margin-left: 5px;
-    }
+    } */
 
     .picture3{
         display: none!important;
