@@ -705,10 +705,6 @@ button[disabled]{
       flex-direction: column;
       margin-top: 18vh;
 
-    	/* justify-content:flex-start; */
-      /*padding-top: 220px;*/
-      /* margin-top: 170px; */
-    	/*margin-right: 43px;*/
     }
 
     .not-only-button{
@@ -828,7 +824,7 @@ button[disabled]{
     	width: 100%;
     }
 
-    
+
 
     .picture3{
         display: none!important;
@@ -895,6 +891,118 @@ button[disabled]{
     }
 
 }
+
+@media all and (max-width: 767px) {
+    body {
+        overflow-x: hidden;
+        width: 100%;
+        position: relative;
+
+    }
+
+    h2 {
+        letter-spacing: 0.06em;
+    }
+
+    h2, h3 {
+        font-size: 25px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    h5 {
+        letter-spacing: normal;
+    }
+
+    .header-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      justify-content: space-between;
+      /* padding-top: 60px; */
+    }
+
+    .buttons-our-friends{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 0.3rem;
+    }
+
+  .card4 {
+    display: none !important;
+  }
+
+  .card5{
+    display: none !important;
+  }
+
+  .card6{
+    display: none !important;
+  }
+
+  .card7{
+    display: none !important;
+  }
+
+  .card8{
+    display: none !important;
+  }
+
+    .wrapper {
+      max-width: 767px;
+      margin: 0 auto;
+    }
+
+    .wrapper-donation{
+
+        display: flex;
+      	flex-direction:column-reverse;
+      	justify-content: center;
+      	align-items: center;
+      	gap: 30px;
+      	padding-top: 82px;
+    }
+
+    .wrapper-footer{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 55px;
+        align-content: center;
+
+    }
+
+    .contact-infos{
+      display: flex;
+      flex-direction: row;
+    }
+
+    .contacts-footer{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-left: 5vw;
+      width: 100vw;
+      justify-content: space-between;
+      gap: 50px;
+      margin-bottom: 13vh;
+    }
+
+    .footer-img{
+
+      align-self: center;
+      max-height: 50%;
+      overflow: hidden;
+    }
+
+
+
+}
+
 
 
 
