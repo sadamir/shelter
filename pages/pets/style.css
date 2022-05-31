@@ -1096,8 +1096,8 @@ button[disabled]{
      justify-content: flex-start;
      align-items: center;
      position: absolute;
-     left: 60px;
-     width: 320px;
+     left: 5px;
+     width: 400px;
      height: 925px;
      top: 0px;
     }
