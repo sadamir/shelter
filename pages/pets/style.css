@@ -828,37 +828,7 @@ button[disabled]{
     	width: 100%;
     }
 
-    /* .our-friends-arrow-left{
-      width: 58px;
-      height: 52px;
-      border: 2px solid #F1CDB3;
-      box-sizing: border-box;
-      border-radius: 100px;
-      background: url(../../assets/icons/left.svg);
-      background-repeat: no-repeat;
-      background-position: center;
-      padding-left: 50px;
-      cursor: pointer;
-      transition: 0.5s;
-      margin-top: 13px;
-      margin-right: 5px;
-    }
-
-    .our-friends-arrow-right{
-      width: 58px;
-      height: 52px;
-      border: 2px solid #F1CDB3;
-      box-sizing: border-box;
-      border-radius: 100px;
-      background: url(../../assets/icons/right.svg);
-      background-repeat: no-repeat;
-      background-position: center;
-      padding-right: 50px;
-      cursor: pointer;
-      transition: 0.5s;
-      margin-top: 13px;
-      margin-left: 5px;
-    } */
+    
 
     .picture3{
         display: none!important;

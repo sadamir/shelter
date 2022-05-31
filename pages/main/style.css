@@ -260,6 +260,8 @@ h1{
 .not-only-img{
   margin-top: 8vh;
   margin-left: 40px;
+  width: 695px;
+  max-width: 100%;
 }
 
 .not-only-wrapper{
@@ -907,9 +909,13 @@ margin-bottom: 20px;
 
     .not-only-img{
       margin-top: 8vh;
-
+        min-width: 260px;
 
       align-self: center;
+    }
+
+    .not-only-puppy{
+      min-width: 569px;
     }
 
     .about-wrapper{
@@ -1068,6 +1074,317 @@ margin-bottom: 20px;
 
     .contacts-footer{
       display: flex;
+      justify-content: space-between;
+      gap: 50px;
+      margin-bottom: 13vh;
+    }
+
+    .footer-img{
+
+      align-self: center;
+      max-height: 50%;
+      overflow: hidden;
+    }
+
+}
+
+@media all and (max-width: 767px) {
+    body {
+        overflow-x: hidden;
+        width: 100%;
+        position: relative;
+
+    }
+
+    h2 {
+        letter-spacing: 0.06em;
+    }
+
+    h2, h3 {
+        font-size: 25px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    h5 {
+        letter-spacing: normal;
+    }
+
+    .header-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      justify-content: space-between;
+      /* padding-top: 60px; */
+    }
+
+    .not-only-card{
+      display: flex;
+      flex-direction: column;
+      margin-top: 18vh;
+
+    	/* justify-content:flex-start; */
+      /*padding-top: 220px;*/
+      /* margin-top: 170px; */
+    	/*margin-right: 43px;*/
+    }
+
+    .not-only-button{
+      flex-direction: column;
+      width: 207px;
+      height: 52px;
+      background: #F1CDB3;
+      border-radius: 25px;
+      border: none;
+      align-self: center;
+      cursor: pointer;
+      padding: 14px 20px;
+      margin-bottom: 15vh;
+
+      font-family: 'Georgia';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 130%;
+      letter-spacing: 0.06em;
+      color: #292929;
+      transition-duration: 0.5s;
+    }
+
+
+    .wrapper {
+      max-width: 768px;
+      margin: 0 auto;
+    }
+
+    /* .container {
+      max-width: 768px;
+    } */
+
+    .not-only-wrapper{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .not-only-puppy{
+        max-width: 260px;
+        padding-right: 3%;
+        /* margin-left: auto; */
+        /* padding-left: 50px;
+        margin-top: 105px; /* 34% */
+    }
+
+    .about-wrapper{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      padding-top: 10px;
+
+    }
+
+    .about-block{
+      margin: 80px auto 0px;
+      align-items: center;
+}
+
+
+    .about-card{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 65%;
+      text-align: left;
+      align: center;
+      margin-left: 0px;
+      margin-bottom: 80px;
+    }
+
+
+    .about-text2{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #4C4C4C;
+    width: 430px;
+    margin-bottom: 20px;
+    /* margin-top: 3px; */
+    }
+
+
+    .about-img{
+      margin-left: 0px;
+      margin-bottom: 80px;
+    }
+
+
+
+    .our-friends-wrapper{
+      display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    }
+
+    .title-friends{
+      width: 90vw;
+      text-align: center;
+      size:25px;
+    }
+
+
+    .our-friends-card{
+      text-align: center;
+      background: #F9F9F9;
+      transition: 0.3s;
+      cursor: pointer;
+      /*justify-content: space-evenly;*/
+      margin: 0 20px;
+      margin-bottom: 12px;
+    }
+
+    .our-friends-slider {
+    	display: flex;
+    	justify-content: space-between;
+      flex-wrap: wrap-reverse;
+    	margin-bottom: 59px;
+    	align-items:center;
+      justify-content: center;
+    	width: 100%;
+    }
+
+    .our-friends-arrow-left{
+      width: 58px;
+      height: 52px;
+      border: 2px solid #F1CDB3;
+      box-sizing: border-box;
+      border-radius: 100px;
+      background: url(../../assets/icons/left.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      padding-left: 50px;
+      cursor: pointer;
+      transition: 0.5s;
+      margin-top: 13px;
+      margin-right: 5px;
+
+    }
+
+    .our-friends-arrow-right{
+      width: 58px;
+      height: 52px;
+      border: 2px solid #F1CDB3;
+      box-sizing: border-box;
+      border-radius: 100px;
+      background: url(../../assets/icons/right.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      padding-right: 50px;
+      cursor: pointer;
+      transition: 0.5s;
+      margin-top: 13px;
+      margin-left: 5px;
+    }
+
+    .our-friends-three{
+      order: 1;
+      /* gap: 10vw; */
+    }
+
+    /* .box-arrow-left{
+      align-self:flex-start;
+    } */
+
+    .box-arrow-right{
+
+    }
+
+    .picture3 {
+        display: none!important;
+    }
+
+    .picture2 {
+        display: none!important;
+    }
+
+    .wrapper-donation{
+
+        display: flex;
+      	flex-direction:column-reverse;
+      	justify-content: center;
+      	align-items: center;
+      	gap: 30px;
+      	padding-top: 82px;
+    }
+
+    .wrapper-footer{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 55px;
+        align-content: center;
+
+    }
+
+    .contact-infos{
+      display: flex;
+      flex-direction: row;
+    }
+
+
+    .icons-media{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+
+        gap: 37px;
+        row-gap: 55px;
+        /* grid-template-rows: auto; */
+        /* text-align: center; */
+    }
+
+    .icon-img{
+      width: 25%;
+    }
+
+    /* .icon-img9{
+      align-self:flex-start;
+    } */
+
+
+
+    .donation-dog{
+      padding-top: 60vh;
+      margin-bottom: 25vh;
+      max-width: 260px;
+    }
+
+    .make-donation-card{
+      text-align: center;
+      width: 50vw;
+      padding-bottom: 25vh;
+    }
+
+    .title-donation{
+      text-align: center;
+    }
+
+    .make-donation-button{
+      width: auto;
+      align-self: center;
+    }
+
+    .contacts-footer{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-left: 5vw;
+      width: 100vw;
       justify-content: space-between;
       gap: 50px;
       margin-bottom: 13vh;
