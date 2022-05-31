@@ -1,8 +1,14 @@
-function buttonOurFriends() {
-    window.location.hash="our-friends";
-}
 
-function buttonOurFriendsPage() {
-    window.open('https://rolling-scopes-school.github.io/sadamir-JSFE2022Q1/shelter/pages/pets/index.html', '_blank');
 
+window.onload=function(){
+
+  const hamburger = document.querySelector(".hamburger");
+  const headerList = document.querySelector(".header-list");
+  const logo = document.querySelector(".header-logo");
+
+  hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    headerList.classList.toggle("active");
+    logo.classList.toggle("active");
+  })
 }

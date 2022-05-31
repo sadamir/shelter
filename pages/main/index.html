@@ -6,10 +6,10 @@
     <title>Cozy House</title>
     <link rel="stylesheet" href="style.css">
     <script src="./script.js"></script>
-    <script src="https://kit.fontawesome.com/74a50cece9.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+
   </head>
-  <body>
+<body>
     <div class="bcg-container">
       <header class="header">
         <div class="container">
@@ -37,7 +37,15 @@
                       <a href="#contacts" class="header-link">Contacts</a>
                     </li>
                   </ul>
+
+                  <div class="hamburger" id="hamburger">
+                    <span class="bar line1"></span>
+                    <span class="bar line2"></span>
+                    <span class="bar line3"></span>
+                  </div>
+
                 </nav>
+
 
             </div>
           </div>
@@ -62,10 +70,11 @@
         </div>
       </div>
     </section>
-    </div>
+</div>
 
     <section class="about-block">
       <div class="container">
+
         <div class="about-wrapper">
 
         <img src="../../assets/images/about-pets.png" class="about-img" alt="cat and dog">
@@ -126,7 +135,7 @@
               <button type="button" class="our-friends-arrow-right"></button>
             </div>
 
-            <button type="button" onclick="buttonOurFriendsPage()" class="our-friends-button">Get to know the rest</button>
+            <button type="button" class="our-friends-button">Get to know the rest</button>
           </div>
       </div>
     </section>
@@ -134,7 +143,7 @@
     <section class="icons-block" id="help">
       <div class="container">
 
-      <div class="icons_wrapper">
+<div class="icons-wrapper">
 
         <div class="icons-title">
           <h3 class="title-help">How you can help<br />our shelter</h4>
@@ -183,7 +192,7 @@
                 </div>
 
   </div>
-      </div>
+</div>
 
         </div>
 
@@ -191,29 +200,33 @@
     </section>
 
     <section class="donation">
-      <div class="container">
+
       <div class="wrapper-donation">
 
-        <img class="donation-dog" src="../../assets/images/donation-dog.png" alt="donation dog">
+            <img class="donation-dog" src="../../assets/images/donation-dog.png" alt="donation dog">
+
+            <!-- <img class="donation-dog" src="../../assets/images/donation-dog.png" alt="donation dog"> -->
+          
 
         <div class="make-donation-card">
             <h3 class="title-donation">You can also<br />make a donation</h3>
             <p class="name-bank">Name of the bank / Type of bank account</p>
             <form action="#">
-              <button type="button" class="make-donation-button make-donation-button-text" onclick="#">
-              <img src="../../assets/images/credit-card.svg" alt="credit-card">
-              8380 2880 8028 8791 7435
-              </button>
+              <a href="#" class="make-donation-button make-donation-button-text">
+                    <img src="../../assets/images/credit-card.svg" alt="credit-card">
+                    <p class="credit-card-number">8380 2880 8028 8791 7435</p>
+              </a>
             </form>
             <p class="donation-text">Legal information and lorem
                               ipsum dolor sit amet, consectetur adipiscing elit.
                               Maecenas a ipsum at libero sagittis dignissim sed ac
                               diam. Praesent ultrices maximus tortor et vulputate.
                               Interdum et malesuada fames ac ante ipsum primis in
-                              faucibus.</p>
+                              faucibus.
+            </p>
         </div>
-      </div>
     </div>
+
     </section>
     </main>
 
@@ -274,7 +287,7 @@
 </footer>
 
 
-
+<script src="script.js" type="text/javascript"></script>
 
   </body>
 </html>
