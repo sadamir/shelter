@@ -8,6 +8,7 @@
     <script src="./script.js"></script>
 
 
+
   </head>
 <body>
     <div class="bcg-container">
@@ -101,11 +102,11 @@
               <h3 class="title-friends">Our friends who<br>are looking for a house</h3>
             </div>
 
-            <div class="our-friends-slider">
-              <button type="button" class="our-friends-arrow-left box-arrow-left"></button>
-                  <div class="our-friends-three">
+            <div class="our-friends-slider swiper">
+              <button type="button" class="our-friends-arrow-left box-arrow-left" onclick="prev(this)"></button>
+                  <div class="our-friends-three slider-main swiper-wrapper">
 
-                      <div class="our-friends-card picture1">
+                      <!-- <div class="our-friends-card picture1">
                         <img src="../../assets/images/pets-woody.png" alt="charly" class="our-friends-img">
                         <div class="container-our-friends">
                           <h3 class="our-friends-name">Woody</h3>
@@ -127,12 +128,12 @@
                           <h3 class="our-friends-name">Scarlett</h3>
                           <button type="button" onclick="" class="our-friends-learn-button box-arrow-right">Learn more</button>
                         </div>
-                      </div>
+                      </div> -->
 
 
 
                   </div>
-              <button type="button" class="our-friends-arrow-right"></button>
+              <button type="button" class="our-friends-arrow-right" onclick="next(this)"></button>
             </div>
 
             <button type="button" class="our-friends-button">Get to know the rest</button>
@@ -206,7 +207,7 @@
             <img class="donation-dog" src="../../assets/images/donation-dog.png" alt="donation dog">
 
             <!-- <img class="donation-dog" src="../../assets/images/donation-dog.png" alt="donation dog"> -->
-          
+
 
         <div class="make-donation-card">
             <h3 class="title-donation">You can also<br />make a donation</h3>

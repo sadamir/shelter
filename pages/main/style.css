@@ -501,6 +501,7 @@ h1{
 	flex-direction: row;
 	justify-content: space-between;
 	width: 100%;
+  overflow: hidden;
 }
 
 .our-friends-button:hover, .our-friends-button:active, .our-friends-button:focus{
@@ -894,10 +895,7 @@ margin-bottom: 20px;
       flex-direction: column;
       margin-top: 18vh;
 
-    	/* justify-content:flex-start; */
-      /*padding-top: 220px;*/
-      /* margin-top: 170px; */
-    	/*margin-right: 43px;*/
+
     }
 
     .not-only-button{
@@ -960,7 +958,7 @@ margin-bottom: 20px;
     .about-block{
       margin: 80px auto 0px;
       align-items: center;
-}
+    }
 
 
     .about-card{
@@ -984,7 +982,6 @@ margin-bottom: 20px;
     color: #4C4C4C;
     width: 430px;
     margin-bottom: 20px;
-    /* margin-top: 3px; */
     }
 
 
@@ -993,21 +990,17 @@ margin-bottom: 20px;
       margin-bottom: 80px;
     }
 
-
-
     .our-friends-wrapper{
       display: flex;
     	flex-direction: column;
     	align-items: center;
     }
 
-
     .our-friends-card{
       text-align: center;
       background: #F9F9F9;
       transition: 0.3s;
       cursor: pointer;
-      /*justify-content: space-evenly;*/
       margin: 0 20px;
       margin-bottom: 12px;
     }
@@ -1053,10 +1046,6 @@ margin-bottom: 20px;
       margin-left: 5px;
     }
 
-    .picture3{
-        display: none!important;
-    }
-
     .wrapper-donation{
 
         display: flex;
@@ -1087,11 +1076,9 @@ margin-bottom: 20px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        /* align-content: center; */
         gap: 50px;
         row-gap: 55px;
-        /* grid-template-rows: auto; */
-        /* text-align: center; */
+
     }
 
     .icon-img{
@@ -1119,7 +1106,7 @@ margin-bottom: 20px;
 
 }
 
-@media all and (max-width: 767px) {
+@media all and (min-width: 0px) and (max-width: 767px) {
   html, body {
     overflow-x: hidden;
     width: 100%;
@@ -1257,6 +1244,8 @@ margin-bottom: 20px;
 
     .our-friends-three{
       justify-content: center;
+      order: 1;
+      overflow: hidden;
     }
 
 
@@ -1281,6 +1270,16 @@ margin-bottom: 20px;
       justify-content: center;
     	width: 100%;
     }
+
+    /* .our-friends-slider {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap-reverse;
+      margin-bottom: 59px;
+      align-items:center;
+      justify-content: center;
+      width: 100%;
+    } */
 
     .our-friends-arrow-left{
       width: 58px;
@@ -1315,13 +1314,6 @@ margin-bottom: 20px;
       margin-left: 5px;
     }
 
-    .our-friends-three{
-      order: 1;
-    }
-
-    .box-arrow-right{
-
-    }
 
     .picture3 {
         display: none!important;
